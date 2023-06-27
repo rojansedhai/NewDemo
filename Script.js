@@ -1,5 +1,7 @@
 // JavaScript code for the website
 
+//This is a demo javascript code
+
 // Function to display a greeting message
 function displayGreeting() {
   const name = prompt("Enter your name:");
