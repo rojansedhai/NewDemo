@@ -1,16 +1,11 @@
 // JavaScript code for the website
 
-// Get the contact form element
-const contactForm = document.getElementById('contact-form');
+// Function to display a greeting message
+function displayGreeting() {
+  const name = prompt("Enter your name:");
+  const greeting = document.getElementById('greeting');
+  greeting.textContent = "Hello, " + name + "! Welcome to our website.";
+}
 
-// Add submit event listener to the form
-contactForm.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent form submission
-
-  // Get the form data
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
-
-  // Log the form data to the console
-  console.log('
+// Call the displayGreeting function when the page loads
+window.addEventListener('load', displayGreeting);
