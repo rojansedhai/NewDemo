@@ -1,4 +1,4 @@
-// JavaScript code for the website
+// JavaScript code for the website that I am using as a demo
 
 //This is a demo javascript code
 
